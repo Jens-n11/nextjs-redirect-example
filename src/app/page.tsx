@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div>
+    <div style={{ backgroundColor: "lightgray", height: "100%" }}>
       <p>Main Page</p>
       <p>
         <a href={"/redirection?test=true"}>A-Tag with redirect</a>

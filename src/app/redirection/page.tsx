@@ -8,7 +8,7 @@ export default function Redirection({
 }) {
   console.log(searchParams);
   if (searchParams.test === "true") {
-    redirect("/test-not-found");
+    redirect("/landing-page");
   }
 
   return <div>This is the redirection page</div>;
